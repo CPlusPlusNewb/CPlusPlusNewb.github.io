@@ -58,4 +58,21 @@ Third: add this where it says
 <p><font size ="2000" class="japanese">Your ip = <?php include('currentip.txt'); ?></font></p>
 ```
 
+ALSO!!!!
+i added a random image thing using php, heres how to add it back:
+
+First(and only step)-
+
+find the:
+
+```ruby
+   background: url(1521237911_1103453878_preview_LitNhNr.gif);
+```
+
+and replace it with 
+
+```ruby
+   background: url('<?php $a = array('1521237911_1103453878_preview_LitNhNr.gif','a2a0943f1b608680028c23c910a55a04.gif', 'background2.gif', 'background_ebic.webp', 'background4.gif'); echo $a[array_rand($a)];?>');
+```
+
 Thanks for reading!
