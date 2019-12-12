@@ -1,39 +1,3 @@
-
-<?php
-  //idk why i wanted to log ip's, but i did, and its eBic
-  //thanks to my buddy jacob on discord / Jacob H.#2208, he provided this code - 
-  /* <?php
-$myfile = fopen("testfile.txt", "w")
-$txt = $_SERVER["REMOTE_ADDR"]."\n";
-fwrite($myfile, $txt); */
-    $myfile = fopen("allips.txt", "a+");
-    $txt = $_SERVER["REMOTE_ADDR"]."\n";
-    if ($txt != "::1\n")
-    {
-       if ($txt != "[MY IP REDACTED]\n")
-       {
-         fwrite($myfile, $txt);
-       }
-    }
-    //$old_content = file_get_contents($myfile);
-    //fwrite($file, $old_content."\n".$txt);
-    fclose($myfile);
-?>
-
-<?php
-  //idk why i wanted to log ip's, but i did, and its eBic
-    $myfile = fopen("currentip.txt", "w");
-    if ($txt != "::1\n")
-    {
-      fwrite($myfile, $txt);
-    }
-    $txt = $_SERVER["REMOTE_ADDR"]."\n";
-    //$old_content = file_get_contents($myfile);
-    //fwrite($file, $old_content."\n".$txt);
-    fclose($myfile);
-?>
-
-
 <!DOCTYPE html>  
 <style>
 @font-face {
@@ -202,7 +166,7 @@ body{
       <main>
          <div class="animated fadeInDown delay-250">
             <div class="japanese">
-               <p><font size ="2000" class="japanese">Your ip = <?php include('currentip.txt'); ?></font></p>
+		    <p><font size ="2000" class="japanese">Your ip = [PHP IS NEEDED, AND GITHUB DOESN'T HAVE PHP?]</font></p>
             </div>
          </div>
          <div class="animated fadeInUp">
