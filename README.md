@@ -48,11 +48,12 @@ fwrite($myfile, $txt); */
 
 ------------------------------------------------------------------------------------------------------------
 
-Third: add this where it says 
+Third: find where it says:
+
 ```ruby 
 <p><font size ="2000" class="japanese">Your ip = [PHP IS NEEDED, AND GITHUB DOESN'T HAVE PHP?]</font></p>"
 ```
-
+and replace it with:
 
 ```ruby
 <p><font size ="2000" class="japanese">Your ip = <?php include('currentip.txt'); ?></font></p>
