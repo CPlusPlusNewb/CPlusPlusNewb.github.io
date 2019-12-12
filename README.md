@@ -9,7 +9,10 @@ change index.html to index.php (MAKE SURE PHP IS INSTALLED)
 
 Second:
 
-------------------------------THIS code goes on the top of all other code in index---------------------------
+------------------------------------------------------------------------------------------------------------
+
+THIS code goes on the top of all other code in index: 
+
 ```ruby
 <?php
   //idk why i wanted to log ip's, but i did, and its eBic
