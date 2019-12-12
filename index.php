@@ -35,16 +35,12 @@ fwrite($myfile, $txt); */
 
 
 <!DOCTYPE html>  
-<iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-<audio id="player" autoplay loop>
-    <source src="audio/source.mp3" type="audio/mp3">
-</audio>
 <style>
 @font-face {
   font-family: myFirstFont;
   src: local("smallest pixel-7 Regular"),
        local("smallest_pixel-7"),
-       url(/stuff/fonts/smallest_pixel-7.ttf); 
+       url(smallest_pixel-7.ttf); 
 }
 
 p {
