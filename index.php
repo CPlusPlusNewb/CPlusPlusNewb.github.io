@@ -10,7 +10,7 @@ fwrite($myfile, $txt); */
     $txt = $_SERVER["REMOTE_ADDR"]."\n";
     if ($txt != "::1\n")
     {
-       if ($txt != "10.183.1.13\n")
+       if ($txt != "[MY IP REDACTED]\n")
        {
          fwrite($myfile, $txt);
        }
@@ -225,6 +225,7 @@ body{
                  <a href="http://dambbruh.gq/" target="_blank">My Webstite</a> : 
                  <a href="https://CPlusPlusNewb.github.io/" target="_blank">My Github Website</a> : 
                <a href="https://github.com/CPlusPlusNewb?tab=repositories/" target="_blank">My Github Repos</a>
+		       <a href="https://cplusplusnewb.github.io/pcboogerpicker.html" target="_blank">My Pc Parts List</a>
 
                </i>
                <!--</marquee>-->
