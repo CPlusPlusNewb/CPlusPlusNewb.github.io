@@ -6,7 +6,7 @@ if you wish to add back the ip logger and such, heres the insturctions-
 First: change index.html to index.php (MAKE SURE PHP IS INSTALLED)
 Second:
 ------------------------------THIS code goes on the top of all other code in index---------------------------
-<?php
+```<?php
   //idk why i wanted to log ip's, but i did, and its eBic
   //thanks to my buddy jacob on discord / Jacob H.#2208, he provided this code - 
   /* <?php
@@ -38,7 +38,7 @@ fwrite($myfile, $txt); */
     //$old_content = file_get_contents($myfile);
     //fwrite($file, $old_content."\n".$txt);
     fclose($myfile);
-?>
+?>```
 ------------------------------------------------------------------------------------------------------------
 Third: add this where it says "<p><font size ="2000" class="japanese">Your ip = [PHP IS NEEDED, AND GITHUB DOESN'T HAVE PHP?]</font></p>"
 <p><font size ="2000" class="japanese">Your ip = <?php include('currentip.txt'); ?></font></p>
