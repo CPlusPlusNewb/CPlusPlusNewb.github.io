@@ -59,7 +59,7 @@ Third: find where it says:
 and replace it with:
 
 ```ruby
-<p><font size ="2000" class="japanese">Your ip = <?php include('currentip.txt'); ?></font></p>
+<p><font size ="2000" class="japanese">Your ip = <?php echo($_SERVER["REMOTE_ADDR"]) ?></font></p>
 ```
 
 ALSO!!!!
